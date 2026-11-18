@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dyikanbaevaa08-coder.github.io/service-website-test/sitemap.xml
+Sitemap: https://masterfix-kg.github.io/sitemap.xml
