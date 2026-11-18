@@ -130,7 +130,7 @@
     ];
 
     [
-      ['Техника и модель', form.elements.device],
+      ['Техника, модель или сантехника', form.elements.device],
       ['Адрес', form.elements.address],
       ['Удобное время', form.elements.time],
       ['Описание поломки', form.elements.problem]
