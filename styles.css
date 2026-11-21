@@ -379,7 +379,7 @@ h3 {
 
 /* Прайс: крупный голубой заголовок раздела */
 .eyebrow--big {
-  margin-bottom: 0;
+  margin-bottom: .25rem;
   font-size: clamp(2rem, 9vw, 3rem);
   line-height: 1.1;
   letter-spacing: .04em;
