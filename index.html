@@ -53,6 +53,7 @@
     <symbol id="i-plug" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0V8zM12 18v4"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m12 3 2 5.500L19.500 10.500 14 12.500 12 18l-2-5.500-5.500-2L10 8.500zM19 3v4M21 5h-4M5 17v4M7 19H3"/></symbol>
     <symbol id="i-washer" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="14" r="4.500"/><path d="M4 7h16M8 4.500h.01"/></g></symbol>
+    <symbol id="i-dish" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M4 7h16M7.500 4.500h.01M10.500 4.500h.01M9 11v6M12 11v6M15 11v6M7 18h10"/></g></symbol>
     <symbol id="i-ac" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="9" rx="2"/><path d="M6 9.500h12M7 17c0 1.500-1.500 1.500-1.500 3M12 17c0 1.500-1.500 1.500-1.500 3M17 17c0 1.500-1.500 1.500-1.500 3"/></g></symbol>
     <symbol id="i-boiler" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6.500" y="2" width="11" height="17" rx="5.500"/><circle cx="12" cy="8" r="2"/><path d="M9.500 19v3M14.500 19v3"/></g></symbol>
     <symbol id="i-tap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h11a4 4 0 0 1 4 4v1M9 11V6M5.500 5.500h7"/><path d="M18 20v.01"/></g></symbol>
@@ -136,7 +137,7 @@
         <div class="works__head">
           <p class="eyebrow">Услуги</p>
           <h2 id="works-title">Что мы делаем</h2>
-          <p class="section-lead">Ремонт, установка и обслуживание стиральных машин, кондиционеров, бойлеров, аристонов и водонагревателей. Ремонт сантехники в Бишкеке.</p>
+          <p class="section-lead">Ремонт, установка и обслуживание стиральных и посудомоечных машин, кондиционеров, бойлеров, аристонов и водонагревателей. Ремонт сантехники в Бишкеке.</p>
           <img class="works__img" src="img/master.jpg" width="760" height="695" alt="Мастер с инструментами рядом со стиральной машиной, кондиционером и трубой" loading="lazy">
         </div>
         <ul class="works__list">
@@ -176,6 +177,9 @@
           <button class="tab" type="button" role="tab" id="tab-washer" aria-controls="panel-washer" aria-selected="true">
             <svg class="icon" aria-hidden="true"><use href="#i-washer"/></svg>Стиральные машины
           </button>
+          <button class="tab" type="button" role="tab" id="tab-dish" aria-controls="panel-dish" aria-selected="false">
+            <svg class="icon" aria-hidden="true"><use href="#i-dish"/></svg>Посудомоечные машины
+          </button>
           <button class="tab" type="button" role="tab" id="tab-ac" aria-controls="panel-ac" aria-selected="false">
             <svg class="icon" aria-hidden="true"><use href="#i-ac"/></svg>Кондиционеры
           </button>
@@ -205,6 +209,26 @@
             <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Установка и подключение</h4><p>Подключаем к воде и сливу</p></div><strong>от 1 000 сом</strong></li>
             <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Профилактика</h4><p>Проверяем узлы и крепления</p></div><strong>от 1 000 сом</strong></li>
             <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Чистка</h4><p>Убираем накипь и грязь</p></div><strong>от 1 500 сом</strong></li>
+          </ul>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-dish" aria-labelledby="tab-dish">
+          <div class="price-hero">
+            <h3>Посудомоечные машины</h3>
+            <p class="price-hero__value">от 1 000 сом</p>
+            <p class="price-hero__text">Ремонт и установка посудомоечных машин</p>
+            <a class="btn btn--white" href="https://wa.me/996556003520" data-wa-text="Здравствуйте! Нужен мастер по посудомоечной машине." target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>Спросить в WhatsApp
+            </a>
+          </div>
+          <ul class="price-list">
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Диагностика</h4><p>Находим причину поломки</p></div><strong>Бесплатно</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Установка и подключение</h4><p>Подключаем к воде и сливу</p></div><strong>от 1 000 сом</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Замена датчиков</h4><p>Датчики уровня воды и температуры</p></div><strong>от 3 000 сом</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Замена ТЭНа</h4><p>Нагреватель: машина не греет воду</p></div><strong>от 4 500 сом</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Замена сливного насоса</h4><p>Машина не сливает воду</p></div><strong>от 4 500 сом</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Ремонт или замена модуля</h4><p>Плата управления: не включается или зависает</p></div><strong>от 4 500 сом</strong></li>
+            <li class="price-card"><span class="tile"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span><div><h4>Замена шланга аквастоп</h4><p>Защита от протечек</p></div><strong>от 5 500 сом</strong></li>
           </ul>
         </div>
 

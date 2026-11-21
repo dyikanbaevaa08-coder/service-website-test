@@ -454,6 +454,9 @@ h3 {
   margin-top: 1.75rem;
 }
 
+/* Нечётное число вкладок: последняя занимает всю строку */
+.tab:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
 .tab {
   display: flex;
   flex-direction: column;
@@ -793,7 +796,6 @@ h3 {
   .hero__actions .btn--grad { grid-column: auto; }
   .wide-only { display: inline; }
   .stats { max-width: 36rem; }
-  .tabs { grid-template-columns: repeat(4, 1fr); }
   .works__list { grid-template-columns: 1fr 1fr; }
   .card--wide { grid-column: 1 / -1; }
   .price-list { grid-template-columns: 1fr 1fr; }
@@ -859,6 +861,9 @@ h3 {
 
   .price-hero { position: sticky; top: calc(var(--header) + 1.25rem); padding: 2.25rem 1.5rem; }
   .price-list { margin-top: 0; }
+  .tabs { grid-template-columns: repeat(5, 1fr); }
+  .tab:last-child:nth-child(odd) { grid-column: auto; }
+  .price-hero__value { font-size: 2.75rem; white-space: nowrap; }
   .steps__list { grid-template-columns: repeat(4, 1fr); }
 
   .steps__list li { padding: 4.25rem 1.25rem 1.25rem; }
