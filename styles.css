@@ -55,7 +55,7 @@ img { display: block; max-width: 100%; }
 h1, h2, h3 { letter-spacing: -.018em; }
 
 h1 {
-  font-size: clamp(1.875rem, 8.300vw, 3.5rem);
+  font-size: clamp(1.5rem, calc((100vw - 2rem) / 11.8), 3.5rem);
   font-weight: 700;
   line-height: 1.14;
 }
@@ -878,3 +878,5 @@ h3 {
     transition: none !important;
   }
 }
+
+.nowrap { white-space: nowrap; }
