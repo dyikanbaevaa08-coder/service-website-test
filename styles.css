@@ -172,28 +172,13 @@ h3 {
 }
 
 .logo__img {
-  width: 2.875rem;
-  height: 2.875rem;
-  padding: 2px;
-  border-radius: 50%;
-  background: var(--grad-tile);
-  object-fit: cover;
+  display: block;
+  width: auto;
+  height: 2.375rem;
 }
 
-.logo__text { display: grid; }
-
-.logo__name {
-  font-size: 1.1875rem;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -.01em;
-  white-space: nowrap;
-}
-
-.logo__city {
-  color: var(--muted);
-  font-size: .8125rem;
-  line-height: 1.25;
+@media (min-width: 1000px) {
+  .logo__img { height: 2.75rem; }
 }
 
 .burger {
