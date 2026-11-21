@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://masterfix-kg.github.io/sitemap.xml
+Sitemap: https://pochinim.github.io/sitemap.xml
