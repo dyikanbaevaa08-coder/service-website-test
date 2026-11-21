@@ -377,6 +377,8 @@ h3 {
   text-transform: uppercase;
 }
 
+.h2--blue { color: var(--accent); }
+
 /* Прайс: крупный голубой заголовок раздела */
 .eyebrow--big {
   margin-bottom: .25rem;
