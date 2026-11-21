@@ -377,20 +377,12 @@ h3 {
   text-transform: uppercase;
 }
 
-/* Прайс: крупное слово сверху, подпись под ним мелкая */
+/* Прайс: крупный голубой заголовок раздела */
 .eyebrow--big {
-  margin-bottom: .375rem;
+  margin-bottom: 0;
   font-size: clamp(2rem, 9vw, 3rem);
   line-height: 1.1;
   letter-spacing: .04em;
-}
-
-.h2--kicker {
-  color: var(--accent);
-  font-size: 1.0625rem;
-  line-height: 1.35;
-  letter-spacing: .08em;
-  text-transform: uppercase;
 }
 
 .section-lead {
